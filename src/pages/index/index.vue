@@ -2,7 +2,9 @@
   <view class="content">
     <image class="logo" src="/static/logo.png" />
     <view class="text-area">
-      <text class="title">{{ a }}</text>
+
+<!--  The input point cannot be prompted,   The defineProps definition is not prompted   -->
+      <text class="title">{{ a. }}</text>
     </view>
   </view>
 </template>
